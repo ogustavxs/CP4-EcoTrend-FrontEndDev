@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/paginainicial.css">
   </head>
 
   <body>
@@ -28,6 +29,7 @@
             />
             EcoTrend</a
           >
+
           <button
             class="navbar-toggler"
             type="button"
@@ -49,16 +51,158 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Produtos</a>
+                <a class="nav-link" href="./src/pages/produtos.html">Produtos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
+                <a class="nav-link" href="./src/pages/contatos.html">Contatos</a>
               </li>
             </ul>
+          </div>
+          <div class="d-flex align-items-center">
+            <a href="./src/pages/produtos.html" class="btn btn-outline-success position-relative mt-1 mb-1" aria-label="Carrinho">
+              <i class="bi bi-cart3" style="font-size: 1.5rem;"></i>
+            </a>
           </div>
         </div>
       </nav>
     </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 carousel-img" src="https://veganbusiness.com.br/wp-content/uploads/2021/05/cosmeticos-veganos-e-naturais-scaled.jpg" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 carousel-img" src="https://www.atlantikos.com.br/wp-content/uploads/2022/10/Herbia-conheca-a-marca-de-cosmeticos-veganos-e-organicos.jpg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 carousel-img" src="https://naturalmentebonita.bioextratus.com.br/wp-content/uploads/2024/05/16889192342745526.jpeg" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Produtos de Beleza</h2>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="card h-100 shadow card-flex">
+              <img src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/MP21109/61085504-dd59-4bca-ba80-8d2b2e320926-arvensis-cosmeticos-naturais-reconstrucao-shampoo-300ml.png" class="card-img-top" alt="Shampoo Natural">
+              <div class="card-body card-body-flex">
+                <h5 class="card-title">Shampoo Arvensis</h5>
+                <p class="card-text">Reconstrução intensiva para cabelos danificados.</p>
+                <p><strong>R$ 66,99</strong></p>
+                <a href="./src/pages/detalhe-produto.html" class="btn btn-success">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100 shadow card-flex">
+              <img src="https://images.tcdn.com.br/img/img_prod/681976/creme_hidratante_pepino_250g_maycrene_1807_1_0865c5a6fbaca3e20d3777e2bf4a2edb.jpg" class="card-img-top" alt="Creme Hidratante">
+              <div class="card-body card-body-flex">
+                <h5 class="card-title">Creme Maycreme</h5>
+                <p class="card-text">Hidratação profunda e natural.</p>
+                <p><strong>R$ 7,98</strong></p>
+                <a href="./src/pages/detalhe-produto.html" class="btn btn-success">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100 shadow card-flex">
+              <img src="https://product-data.raiadrogasil.io/images/12476516.webp" class="card-img-top" alt="Sabonete Vegetal">
+              <div class="card-body card-body-flex">
+                <h5 class="card-title">Sabonete Vegetal Needs</h5>
+                <p class="card-text">Ação antiacne e secativa.</p>
+                <p><strong>R$ 7,90</strong></p>
+                <a href="./src/pages/detalhe-produto.html" class="btn btn-success">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100 shadow card-flex">
+              <img src="https://cdn.dooca.store/133206/products/dbe1ndiu50dt4yghkrdrpflbu4yv0jurmpet.png?v=1695329037" class="card-img-top" alt="Óleo Essencial">
+              <div class="card-body card-body-flex">
+                <h5 class="card-title">Óleo Essencial Florata</h5>
+                <p class="card-text">Relaxamento natural e aroma agradável.</p>
+                <p><strong>R$ 49,59</strong></p>
+                <a href="./src/pages/detalhe-produto.html" class="btn btn-success">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <a href="./src/pages/produtos.html" class="btn btn-outline-success">Ver mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Produtos de Roupas</h2>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="card h-100 shadow card-flex">
+              <img src="https://cdn.awsli.com.br/600x450/1081/1081221/produto/85692078/0c52cdfd60.jpg" class="card-img-top h-75" alt="Camiseta Orgânica">
+              <div class="card-body card-body-flex">
+                <h5 class="card-title">Camiseta Masculina Algodão Orgânico</h5>
+                <p class="card-text">Feita com algodão 100% orgânico.</p>
+                <p><strong>R$ 40,38</strong></p>
+                <a href="./src/pages/detalhe-produto.html" class="btn btn-success">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100 shadow card-flex">
+              <img src="https://cdn.dooca.store/9528/products/calca-reta-listras-linho-natural-01.jpg?v=1715615467" class="card-img-top h-75" alt="Calça Sustentável">
+              <div class="card-body card-body-flex">
+                <h5 class="card-title">Calça Reta Listras Linho Natural</h5>
+                <p class="card-text">Produzida com Linho natural e estilo classico.</p>
+                <p><strong>R$ 259,90</strong></p>
+                <a href="./src/pages/detalhe-produto.html" class="btn btn-success">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100 shadow card-flex">
+              <img src="https://qvestido.fbitsstatic.net/img/p/vestido-couro-eco-barra-bordada-em-rechelie-verde-fascinius-71513/263770-1.jpg?w=630&h=930&v=no-change&qs=ignore" class="card-img-top h-75" alt="Vestido Eco">
+              <div class="card-body card-body-flex">
+                <h5 class="card-title">Vestido Couro Eco Barra Bordada</h5>
+                <p class="card-text">Feita com couro ecologico de Cacto.</p>
+                <p><strong>R$ 339,95</strong></p>
+                <a href="./src/pages/detalhe-produto.html" class="btn btn-success">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100 shadow card-flex">
+              <img src="https://47605.cdn.simplo7.net/static/47605/sku/bolsas-medias-bolsa-vegana-amarilis-preta--p-1602678894582.jpg" class="card-img-top h-75" alt="Bolsa Vegana">
+              <div class="card-body card-body-flex">
+                <h5 class="card-title">Bolsa Vegana Amarilis Preta</h5>
+                <p class="card-text">Feita com couro ecologico de Cacto..</p>
+                <p><strong>R$ 249,90</strong></p>
+                <a href="./src/pages/detalhe-produto.html" class="btn btn-success">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <a href="./src/pages/produtos.html" class="btn btn-outline-success">Ver mais</a>
+        </div>
+      </div>
+    </section>
+
 
     <div class="container">
       <footer class="py-5">
@@ -68,16 +212,16 @@
           <p>© 2025 EcoTrend, Inc. Todos direitos reservados.</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
-              <a class="link-body-emphasis" href="#" aria-label="Telephone">
+              <a class="link-body-emphasis" href="./src/pages/contatos.html" aria-label="Telephone">
                 <i class="bi bi-telephone-fill"></i>
               </a>
             </li>
             <li class="ms-3">
-              <a class="link-body-emphasis" href="#" aria-label="Email"
+              <a class="link-body-emphasis" href="./src/pages/contatos.html" aria-label="Email"
                 ><i class="bi bi-envelope-fill"></i></a>
             </li>
             <li class="ms-3">
-              <a class="link-body-emphasis" href="#" aria-label="Localization"
+              <a class="link-body-emphasis" href="./src/pages/contatos.html" aria-label="Localization"
                 ><i class="bi bi-geo-alt-fill"></i></a>
             </li>
           </ul>
