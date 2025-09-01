@@ -1,7 +1,3 @@
-body {
-  background-color: #eff5d2;
-}
-
 /* Contatos */
 
 .card {
@@ -46,7 +42,7 @@ body {
   transform: scale(1.02);
 }
 
-.btn {
+.btn-form {
   background-color: #4e7956;
   border: none;
   transition: all 0.3s ease-in;
