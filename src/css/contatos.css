@@ -1,0 +1,54 @@
+/* Contatos */
+
+.card {
+  background-color: #3e5f44;
+  border: none;
+  transition: all 0.3s ease-out;
+}
+
+.card * {
+  color: #eff5d2;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+}
+
+/* Redes sociais */
+
+.social a {
+  font-size: 1rem;
+}
+
+.social a:hover {
+  padding-bottom: 1px;
+  border-bottom: 1px solid #eff5d2;
+}
+
+/* Formulario de contato */
+
+.form-control {
+  background-color: #eff5d2;
+  border: none;
+  color: #3e5f44;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:hover,
+.form-control:focus {
+  background-color: #d4dabb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+  transform: scale(1.02);
+}
+
+.btn-form {
+  background-color: #4e7956;
+  border: none;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+  background-color: #4e7956;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.199);
+}

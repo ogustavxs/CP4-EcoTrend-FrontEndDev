@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .navbar {
+    background-color: #3E5F44;
+}
+header .nav-link, header .navbar-brand {
+    color: #FFFFFF !important;
+}
+
+header .navbar-brand {
+    font-weight: bold;
+}
+
+header .active {
+    font-weight: bold;
+}
+
+header .nav-link {
+
+    background-color: #4e7956;
+    border-radius: 5px;
+}
+
